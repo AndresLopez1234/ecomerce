@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  
+  <div class="nav1-section">
+    <div class="primary-section">
+      <i class='bx bx-restaurant'></i>
+      <span>Tienda de Comida Online</span>
+      <i class='bx bx-phone'></i>
+      <span>+57 3057502101</span>
+      <i class='bx bx-map'></i>
+      <span>Calle Siemprevivas</span>
+      <i class='bx bx-envelope'></i>
+      <span>serpua17@gmail.com</span>
+      <i class='bx bx-user'></i>
+      <span>Español</span>
+    </div>
+  </div>
+
+
+  <div class="nav2-section">
+    <div class="first-section">
+      <div class="search-container">
+        <div><input type="text" placeholder="SEARCH"> <i class='bx bx-search'></i></div>
+      </div>
+      <div class="title-container">
+        <h1>HYPE<i class='bx bx-anchor'></i>BAY</h1>
+      </div>
+      <div class="social-container">
+        <i class='bx bxl-facebook-square media'></i>
+        <i class='bx bxl-twitter media'></i>
+        <i class='bx bxl-instagram media'></i>
+        <i class='bx bxl-snapchat media'></i>
+      </div>
+    </div>
+    <div class="second-section">
+      <i class='bx bx-home-alt-2'></i>
+      <span>HOME</span>
+      <span>CATEGORIES</span>
+      <span>CUSTOM</span>
+      <span>LIMITED EDITION</span>
+      <span>EXPLORE</span>
+      <span>JOIN US</span>
+      <span>STORES</span>
+        <span>CONTACT</span>
+    </div>
+  </div>
+  
+  <div class="img">
+    <img src="assets/img/hanburguer.jpg">
+  </div>
+
+ 
+  <div class="img__second__line">
+    <div class="second__line__img">
+      <img src="./assets/img/hot_dog.jpg">
+    </div>
+    <div class="second__line__img">
+      <img src="./assets/img/sandwich.jpg">
+    </div>
+  </div>
+  
+
+
+
+  <header class="cabezera">
+    <h1 class="titulo">Tienda</h1>
+  </header>
+
+  <div class="contenedor__principal">
+    <main class="contenedor__productos">
+      <h2>Productos:</h2>
+      <section id="productosContenedor" class="productos"></section>
+      <section id="bebidasContenedor" class="productos"></section>
+    </main>
+
+    <asside class="contenedor__carrito">
+      <h2>Carrito:</h2>
+      <div class="total__CompraCarrito">
+        <h3>Total: <span id="precioTotal"></span> </h3>
+
+        <div id="btnsAcciones">
+          <button type="button" class="comprar btnRCarrito">Comprar</button>
+          <button type="button" class="limpiar btnRCarrito">Vaciar</button>
+        </div>
+      </div>
+      <div id="articulosContenedor" class="articulos"></div>
+
+    </asside>
+  </div>
+
+
+
+<div class="carrousel">
+  <div class="conteCarrousel">
+      <div class="itemCarrousel" id="itemCarrousel-1">
+          <div class="itemCarrouselTarjeta">
+          <img src="assets/img/chocolate.jpg" alt="">
+          </div>
+          <div class="itemCarrouselArrows">
+              <a href="#itemCarrousel-3">
+                <i class="fa-solid fa-circle-arrow-left"></i> 
+              </a>
+              <a href="#itemCarrousel-2">
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+          </div>
+      </div>
+      <div class="itemCarrousel" id="itemCarrousel-2">
+          <div class="itemCarrouselTarjeta">
+            <img src="assets/img/desserts.jpg" alt="">
+          </div>
+          <div class="itemCarrouselArrows">
+              <a href="#itemCarrousel-1">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+              </a>
+              <a href="#itemCarrousel-3">
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+          </div>
+      </div>
+      <div class="itemCarrousel" id="itemCarrousel-3">
+          <div class="itemCarrouselTarjeta">
+            <img src="assets/img/churros.jpg" alt="">
+          </div>
+          <div class="itemCarrouselArrows">
+              <a href="#itemCarrousel-2">
+                <i class="fa-solid fa-circle-arrow-left"></i>
+              </a>
+              <a href="#itemCarrousel-1">
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+          </div>
+      </div>
+  </div>
+  <div class="conteCarrouselController">
+      <a href="#itemCarrousel-1">•</a>
+      <a href="#itemCarrousel-2">•</a>
+      <a href="#itemCarrousel-3">•</a>
+  </div>
+</div>
+
+  <div class="seccion_footer">
+    <div class="izquierda">
+      <p>NEWLATTERS</p>
+      <div class="buscador_y_boton">
+        <input class="input" type="text" placeholder="Buscar">
+        <img class="icono" src="./assets/img/buscar.png" alt="">
+        <img class="icono" src="./assets/img/hogar.png" alt="">
+      </div>
+    </div>
+    <div class="derecha">
+      <div class="sedes">
+        <h2>Encuentranos en:</h2>
+        <ul>
+          <li>Colombia</li>
+        </ul>
+      </div>
+    </div>
+    <div class="centro">
+      <div class="Numeros">
+        <h2>Numero de Contacto:</h2>
+        <ul>
+          <li>+57 3057502101</li>
+          <li>+57 3005695630</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tres">
+      <div class="Horario">
+        <h2>Horario de Atencion:</h2>
+        <ul>
+          <li>Lunes: 8 AM a 8 PM</li>
+          <li>Martes: 8 AM a 6 PM</li>
+          <li>Miercoles: 8 AM a 8 PM</li>
+          <li>Jueves: 8 AM a 6 PM</li>
+          <li>Viernes: 8 AM a 8 PM</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer_copyright">
+      <small>Copyright. &copy;|Todos los derechos reservados. Creado por: Andrés Lopéz Rivera</small>
+  </div>
+
+  <script src="assets/js/main.js" type="module"></script>
+</body>
+
+</html>
